@@ -30,16 +30,6 @@
 		component: './TienIch/GioiThieu',
 		hideInMenu: true,
 	},
-	{
-		path: '/quan-ly-nhan-vien',
-		name: 'Quản lý nhân viên',
-		component: './Employee',
-	},
-	{
-		path: '/quan-ly-don-hang',
-		name: 'Quản lý đơn hàng',
-		component: './Order',
-	},
 
 	// DANH MUC HE THONG
 	// {
