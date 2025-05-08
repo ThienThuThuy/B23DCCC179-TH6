@@ -30,6 +30,22 @@
 		component: './TienIch/GioiThieu',
 		hideInMenu: true,
 	},
+	{
+		path: '/diem-den',
+		name: 'Điểm đến',
+		component: './DuLich/DiemDen',
+	},
+	{
+		path: '/lich-trinh',
+		name: 'Lịch trình',
+		component: './DuLich/LichTrinh',
+	},
+	{
+		path: '/ngan-sach',
+		name: 'Ngân sách',
+		component: './DuLich/NganSach',
+	},
+
 
 	// DANH MUC HE THONG
 	// {

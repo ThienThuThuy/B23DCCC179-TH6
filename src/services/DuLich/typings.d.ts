@@ -11,6 +11,11 @@ interface Destination {
     foodCost: number; // Chi phí ăn uống
     transportationCost: number; // Chi phí di chuyển
 }
+
+
+
+
+
 interface Itinerary {
     id: string; // ID của lịch trình
     destinations: Array<ItineraryItem>; // Danh sách các điểm đến trong lịch trình
@@ -35,6 +40,12 @@ interface BudgetAlert {
     type: 'warning' | 'info' | 'success'; // Loại thông báo
     valueExceeded?: number; // Số tiền vượt ngân sách (nếu có)
 }
+
+
+
+
+
+
 interface AdminDestination {
     id: string; // ID điểm đến
     name: string; // Tên điểm đến
